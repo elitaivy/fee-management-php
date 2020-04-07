@@ -1,0 +1,63 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+svg.caret {
+    display: none!important;
+}
+
+input.select-dropdown.dropdown-trigger{
+    display: none!important;
+}
+
+	.arw::-webkit-inner-spin-button,
+.arw::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+
+
+.drop{
+font-size: 16px;
+    line-height: 22px;
+    display: block;
+   padding: 14px 24px;
+    color: #ff4081;
+}
+
+.drop>li
+{
+	clear: both;
+    width: 100%;
+    min-height: 50px;
+}
+
+.action-btn
+{
+    margin: 10px;
+}
+
+
+.datepicker-calendar{
+z-index: 1200!important;
+}
+
+
+
+/*.modal-content {
+     position: relative!important;
+
+    width: 100%;
+    height: -webkit-calc(100% - 56px);
+    height: -moz-calc(100% - 56px);
+    height: calc(100% - 56px);
+    max-height: 100%;}*/
